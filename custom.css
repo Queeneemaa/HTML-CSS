@@ -1,0 +1,123 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background: #f3f3ff;
+    color: #333;
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    width: 90%;
+    margin: 20px auto;
+    height: 120px;
+    line-height: 120px;
+    background: #41a85f;
+    color: #fff;
+    text-align: center;
+}
+
+/* Menu */
+.menu {
+    background-color: #53bd84;
+    height: 50px;
+    line-height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0%;
+    margin: 20;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #74c599;
+}
+
+/* Content */
+.content {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    background: #fff;
+}
+
+
+/* Blog section (kiri) */
+.kiri {
+    width: 70%;
+    background: #fff;
+}
+
+/* Category section (kanan) */
+.kanan {
+    width: 30%;
+    background: #fff;
+    
+}
+
+.kanan a {
+    color: blue; /* Mengubah warna teks menjadi biru */
+    text-decoration: none; /* Menghilangkan underline */
+    display: block; /* Membuat link memenuhi seluruh lebar */
+    margin-bottom: 10px; /* Menambahkan jarak antar link */
+}
+
+.kanan a:hover {
+    text-decoration: underline; /* Menambahkan underline saat hover untuk menandakan interaktivitas */
+}
+
+/* Blog post border */
+.border {
+    border: 2px solid #74c599;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+/* Footer */
+.footer {
+    width: 90%;
+    margin: 20px auto;
+    height: 40px;
+    line-height: 40px;
+    background: #41a85f;
+    color: #fff;
+    text-align: center;
+}
+
+/* Utility class for spacing */
+.jarak {
+    padding: 0 20px;
+}
+
+/* Undecorated links */
+.undecor {
+    text-decoration: none;
+    color: #333;
+}
+
+.undecor:hover {
+    text-decoration: underline;
+}
